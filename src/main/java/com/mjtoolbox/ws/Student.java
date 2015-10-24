@@ -9,17 +9,17 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name="student")
 public class Student implements Serializable{
 
-
+	/* Test git GGUI */
 	private static final long serialVersionUID = 6718071273578435756L;
-	
+
 	private int id;
 	private String name;
 	private int age;
-	
+
 	public Student() {
 	}
-	
-	
+
+
 
 	public Student(int id, String name, int age) {
 		super();
@@ -63,7 +63,7 @@ public class Student implements Serializable{
 		return "Student [id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
 
-	
-	
-	
+
+
+
 }
